@@ -20,7 +20,7 @@ export const handler = async (
 
     const command = new StartTranscriptionJobCommand({
       IdentifyLanguage: true,
-      LanguageOptions: ['ja-JP', 'en-US'],
+      LanguageOptions: ['ko-KR', 'ja-JP', 'en-US'],
       MediaFormat: mediaFormat,
       Media: { MediaFileUri: audioUrl },
       TranscriptionJobName: uuid,
