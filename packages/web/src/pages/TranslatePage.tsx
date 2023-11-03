@@ -177,7 +177,7 @@ const TranslatePage: React.FC = () => {
   return (
     <div className="grid grid-cols-12">
       <div className="invisible col-span-12 my-0 flex h-0 items-center justify-center text-xl font-semibold lg:visible lg:my-5 lg:h-min">
-        翻訳
+        번역
       </div>
       <div className="col-span-12 col-start-1 mx-2 lg:col-span-10 lg:col-start-2 xl:col-span-10 xl:col-start-2">
         <Card label="번역하고 싶은 문장">
@@ -229,7 +229,7 @@ const TranslatePage: React.FC = () => {
 
           <div className="flex justify-end gap-3">
             <Button outlined onClick={onClickClear} disabled={disabledExec}>
-              クリア
+              지우기
             </Button>
 
             <Button disabled={disabledExec} onClick={onClickExec}>
