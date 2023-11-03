@@ -28,7 +28,7 @@ const useRag = (id: string) => {
       // Kendra から Retrieve する際に、ローディング表示する
       setLoading(true);
       pushMessage('user', content);
-      pushMessage('assistant', '[Kendra から参照ドキュメントを取得中...]');
+      pushMessage('assistant', '[Kendra에서 응답을 불러오는 중...]');
 
       const query = await predict({
         messages: [
